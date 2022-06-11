@@ -1,22 +1,18 @@
 import React from "react";
-import logo from "./logo.svg";
+import logo from "./icons/Instagram.webp";
+import "./normalize.css";
 import "./App.css";
+import LinkItem from "./components/LinkItem";
+import Bio from "./components/Bio";
 
 function App() {
+  const name = "Instagram";
+  const url = "https://me.zice.ch";
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello World!</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Bio></Bio>
+      <LinkItem name={name} url={url} image={logo}></LinkItem>
     </div>
   );
 }

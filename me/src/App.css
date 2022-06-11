@@ -1,38 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wdth,wght@125,619&display=swap");
+
+body {
+  background: rgb(39, 39, 39);
+}
+
 .App {
+  background: rgb(0, 0, 0);
+  color: white;
+  margin: 12px;
+  height: 100vh;
+}
+
+.BioContainer {
+  padding: 10px;
+  overflow: hidden;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.BioContainer .face {
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.BioContainer .face .circle {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.BioContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.BioContainer .name {
+  font-family: "Encode Sans", sans-serif;
+}
+
+.LinkItemContainer {
+  margin: 10px;
+}
+
+.LinkItemContainer img {
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 40px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.LinkItemContainer p {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin-left: 5px;
 }
