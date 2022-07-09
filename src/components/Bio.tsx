@@ -12,6 +12,7 @@ function Bio() {
       <div className="name">
         <h1>MARIUS ZINDEL</h1>
       </div>
+
       <div className="descripttion">
         <p>
           Currently studying IT at university of applied sciences rapperswil 👨🏻‍🎓

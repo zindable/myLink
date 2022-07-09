@@ -6,12 +6,13 @@ body {
 }
 
 .App {
-  border: 0px solid rgb(39, 39, 39);
-  background: rgb(39, 39, 39);
+  /* border: 0px solid rgb(39, 39, 39);
+  background: rgb(39, 39, 39); */
   color: white;
   padding: 12px;
   width: calc(100vw -48px);
   height: 100vh;
+  min-height: -webkit-fill-available;
   max-width: 600px;
   margin: 0 auto;
   /* position: fixed; */
@@ -23,7 +24,7 @@ body {
   padding: 20px;
   text-align: center;
   background: rgb(13, 13, 13);
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .BioContainer img {
@@ -44,7 +45,7 @@ body {
   --scrollbar-width: 0px;
 
   /* mask fade distance, for use in mask calculations */
-  --mask-height: 32px;
+  --mask-height: 30px;
 
   /* If content exceeds height of container, overflow! */
   overflow-y: auto;
@@ -104,7 +105,7 @@ body {
 
 .LinkItemContainer {
   background: rgb(13, 13, 13);
-  border-radius: 10px;
+  border-radius: 15px;
   margin: 20px 0px 20px 0px;
   padding: 8px;
 }
