@@ -1,5 +1,5 @@
 import React from "react";
-import face from "../icons/Marius.jpeg";
+import face from "../icons/Marius.png";
 
 function Bio() {
   return (
