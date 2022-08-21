@@ -1,13 +1,6 @@
-
 import LinkItemProps from "./LinkItemProps";
 
 let itemConfig: LinkItemProps[] = [
-  {
-    name: "Instagram",
-    env: "REACT_APP_INSTAGRAM_URL",
-    image: "instagram.webp",
-    url: "",
-  },
   {
     name: "LinkedIn",
     env: "REACT_APP_LINKEDIN_URL",
@@ -18,6 +11,12 @@ let itemConfig: LinkItemProps[] = [
     name: "Youtube",
     env: "REACT_APP_YOUTUBE_URL",
     image: "youtube.png",
+    url: "",
+  },
+  {
+    name: "Instagram",
+    env: "REACT_APP_INSTAGRAM_URL",
+    image: "instagram.webp",
     url: "",
   },
   {
@@ -50,5 +49,3 @@ let itemConfig: LinkItemProps[] = [
   { name: "Gear", env: "REACT_APP_GEAR_URL", image: "gear.png", url: "" },
 ];
 export default itemConfig;
-
-
